@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: micronautioc
+netty:
+  default:
+    allocator:
+      max-order: 3
