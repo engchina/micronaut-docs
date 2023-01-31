@@ -1,0 +1,9 @@
+micronaut:
+  application:
+    name: micronauthttpserver
+  server:
+    port: 8181 # 默认情况下，服务器运行在8080端口。然而，你可以将服务器设置为在一个特定的端口上运行。-1，要在一个随机端口上运行。
+netty:
+  default:
+    allocator:
+      max-order: 3
